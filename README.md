@@ -62,6 +62,72 @@ ansible-playbook playbook.yml
 
  -----------------------------------------------------------------------------------------------------------------------------------
 
+**Step 3:** Update the playbook with Jina2 template tasks
+
+vim playbook.yml
+
+Enter the code snippet in playbook as shown in below screenshot:
+
+<img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/cfe5fba3-3654-4d71-9500-c3a98af8c79f" />
+
+
+Save the playbook and run it.
+
+ansible-playbook playbook.yml
+
+
+<img width="975" height="367" alt="image" src="https://github.com/user-attachments/assets/f03a0293-3546-4998-86e9-1904ba1e1268" />
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+**Step 4:** Create an HTML code and deploy it on nginx sever
+
+vim index.html
+
+<marquee> Course End Project - CMAT </marquee>
+<h1> This is Ansible-Jinja2 (Project 1)</h1>
+<h2> Created by Kumar Mayank </h2>
+<marquee> Look my project got executed successfully </marquee>
+
+
+-Save the file.
+
+<img width="975" height="205" alt="image" src="https://github.com/user-attachments/assets/54a6d299-03d8-478f-8f97-3d3d92c7b2fc" />
+
+Update the playbook with the new tasks as shown in below screenshot
+
+vim playbook.yml
+
+<img width="823" height="511" alt="image" src="https://github.com/user-attachments/assets/3eb66b76-7068-4844-bc3c-97d1e660bd3a" />
+
+Save the file and execute the playbook.
+
+ansible-playbook playbook.yml
+
+<img width="975" height="402" alt="image" src="https://github.com/user-attachments/assets/6b8dcfa9-ac42-4712-8998-c53ec5a1562b" />
+
+
+Now, Copy the public ip of node/host machine.
+
+Paste the URL on the Browser to access the application.
+
+Public-ip: 8282 
+
+http://184.72.90.82:8282/
+
+<img width="954" height="487" alt="image" src="https://github.com/user-attachments/assets/ee0eeeff-58f1-402d-970c-53f9d4f082af" />
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+**- The Web Application is getting loaded successfully on the browser, hence Project got executed successfully.
+
+- The Project demonstrate the deployment of a Web Application using Ansible and Jinja2 template on Nginx server.**
+
+
+
+
+
+
  
 
 
