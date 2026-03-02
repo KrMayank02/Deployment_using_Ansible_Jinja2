@@ -21,7 +21,52 @@ application is ready to be hosted on a server. You are tasked with implementing 
 
 6. Execute the playbook to deploy the web application on the remote server
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Project Implementation Steps:**
+
+**Step 1:** Write a YAML playbook with tasks for installing Nginx.
+
+sudo su -
+
+vim playbook.yml
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+<img width="950" height="419" alt="image" src="https://github.com/user-attachments/assets/4a3fd2f0-ccde-4721-85f6-fcb12785c0d3" />
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Save and run the playbook
+
+apt-get update
+
+ansible-playbook playbook.yml
+
+<img width="964" height="299" alt="image" src="https://github.com/user-attachments/assets/5f5fa386-b43f-4aa3-9cb8-42f126ab0e7c" />
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+**Step 2:** Update the nginx configuration using Jinja2 template
+
+ cp /etc/nginx/sites-available/default .
+
+ mv default default.j2 
+
+ vim default.j2
+
+ Update port 80 with a variable {{ http_port }} , Save the file as shown below:
+
+ <img width="975" height="407" alt="image" src="https://github.com/user-attachments/assets/47aebda0-089e-4fd9-be18-f80dbfca9bfa" />
+
+ -----------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+
+
+
 
 
 
