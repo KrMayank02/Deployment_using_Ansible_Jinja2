@@ -107,26 +107,15 @@ Paste the URL on the Browser to access the application.
 
 Public-ip: 8282 
 
-http://184.72.90.82:8282/
+http://184.72.90.82:8282/     //Enter this URL on the browser as shown in below screenshot:
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="954" height="487" alt="image" src="https://github.com/user-attachments/assets/ee0eeeff-58f1-402d-970c-53f9d4f082af" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-**- The Web Application is getting loaded successfully on the browser, hence Project got executed successfully.
+**- The Web Application is getting loaded successfully on the browser, hence Project got executed successfully.**
 
-- The Project demonstrate the deployment of a Web Application using Ansible and Jinja2 template on Nginx server.**
-
-
-
-
-
-
- 
-
-
-
-
-
-
+**- The Project demonstrate the deployment of a Web Application using Ansible and Jinja2 template on Nginx server.**
 
