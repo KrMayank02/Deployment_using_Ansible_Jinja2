@@ -82,13 +82,7 @@ ansible-playbook playbook.yml
 
 **Step 4:** Create an HTML code and deploy it on nginx sever
 
-vim index.html
-
-<marquee> Course End Project - CMAT </marquee>
-<h1> This is Ansible-Jinja2 (Project 1)</h1>
-<h2> Created by Kumar Mayank </h2>
-<marquee> Look my project got executed successfully </marquee>
-
+vim index.html,  enter the block of code as shown in below screenshot:
 
 -Save the file.
 
