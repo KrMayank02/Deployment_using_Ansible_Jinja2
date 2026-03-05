@@ -2,12 +2,23 @@
 
 **Objective:** To create an automation script to deploy a Web Application using Ansible and Jinja2 template.
 
-**Real-time scenario:**
+**Real-time Scenario:**
 
 You have joined as a DevOps engineer in XYZ Pvt. Ltd. It is a platform where individuals can create their profile and start blogging on various topics. The
 application is ready to be hosted on a server. You are tasked with implementing an Ansible script to deploy this application on a remote Nginx server.
 
-**High-Level-Tasks:**
+----------------------------------------------------------------------------------------------------------------------------
+
+## Tools, Services used in the Project:
+
+- Ansible
+- Jinja2 - template
+- Nginx server
+- Ansible Playbook
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+## High Level Tasks/Steps:
 
 1. Create an inventory file to define the remote server(s)
 
@@ -23,7 +34,7 @@ application is ready to be hosted on a server. You are tasked with implementing 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Project Implementation Steps:**
+## Project Implementation Steps & Result Screenshots:
 
 **Step 1:** Write a YAML playbook with tasks for installing Nginx.
 
